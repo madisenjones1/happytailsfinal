@@ -5,6 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home - Happy Tails</title>
   <link rel="stylesheet" href="happytails.css">
+  <style>
+    header h1, header p, nav a, .section-title, h3 {
+      color: #f57c00; /* orange like the one in the heart */
+    }
+    .logo {
+      width: 180px;
+      height: auto;
+    }
+    @media (max-width: 600px) {
+      .logo {
+        width: 140px;
+      }
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -29,6 +43,13 @@
     <p>We are proud to offer a wide selection of carefully chosen brands, each meeting our high standards for quality and ingredients. Whether you're shopping for kibble, wet food, treats, or specialty chew toys, you'll find options that align with your pet's dietary needs and your values.</p>
 
     <img src="images/storefront.jpg" alt="Happy Tails Storefront" class="home-img">
+
+    <div class="video-section" style="display: flex; align-items: center; gap: 20px; margin-top: 40px; flex-wrap: wrap;">
+      <iframe width="400" height="225" src="https://www.youtube.com/embed/uDP8nPELClg" frameborder="0" allowfullscreen></iframe>
+      <div class="video-description">
+        <p><strong>Here at Happy Tails, we strive on having the best ingredients because of the huge changes we see in our pets!</strong> If you would like to learn more, please watch this video on the importance of ingredients in pet food.</p>
+      </div>
+    </div>
 
     <h3>Why Choose Us?</h3>
     <ul>
