@@ -4,7 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Shop - Happy Tails</title>
-  <link rel="stylesheet" href="happytails.css">
+  <link rel="stylesheet" href="happy-tails-style.css">
+  <style>
+    header h1, header p, nav a, .section-title, h3 {
+      color: #f57c00; /* orange like the one in the heart */
+    }
+    .logo {
+      width: 180px;
+      height: auto;
+    }
+    @media (max-width: 600px) {
+      .logo {
+        width: 140px;
+      }
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -24,31 +38,33 @@
 
   <div class="content">
     <h2 class="section-title">Shop Our Products</h2>
-    <p>We proudly offer a wide variety of healthy, organic pet foods and treats. Every product on our shelves has been handpicked to support your pet's health and happiness.</p>
+    <p>At Happy Tails, we stock only the highest quality pet products. Whether your furry friend needs allergen-free meals, healthy treats, or tough chew toys, we’ve got you covered!</p>
 
-    <section class="product-section">
-      <h3>Dog Food</h3>
-      <img src="images/dog-food.jpg" alt="Dog food display">
-      <p>Our premium dog foods include grain-free, single-protein, and limited-ingredient formulas that are gentle on sensitive stomachs and full of flavor.</p>
-    </section>
+    <div class="product-grid">
+      <div class="product">
+        <img src="images/dogfood.jpg" alt="Organic Dog Food">
+        <h3>Organic Dog Food</h3>
+        <p>Carefully selected for dogs with sensitive stomachs and allergies.</p>
+      </div>
 
-    <section class="product-section">
-      <h3>Cat Food</h3>
-      <img src="images/cat-food.jpg" alt="Cat food display">
-      <p>Wholesome and protein-rich meals your feline friends will love. Choose from wet, dry, and raw diets tailored for different life stages.</p>
-    </section>
+      <div class="product">
+        <img src="images/catfood.jpg" alt="Grain-Free Cat Food">
+        <h3>Grain-Free Cat Food</h3>
+        <p>Delicious recipes your feline friends will love, packed with natural ingredients.</p>
+      </div>
 
-    <section class="product-section">
-      <h3>Organic Pet Treats</h3>
-      <img src="images/pet-treats.jpg" alt="Organic pet treats">
-      <p>Treat your pets with love! We carry a variety of treats that are free from artificial colors, preservatives, and common allergens.</p>
-    </section>
+      <div class="product">
+        <img src="images/pettreats.jpg" alt="Healthy Pet Treats">
+        <h3>Healthy Pet Treats</h3>
+        <p>Nutritious treats for rewarding good behavior — guilt-free and tasty.</p>
+      </div>
 
-    <section class="product-section">
-      <h3>Specialty Chew Toys</h3>
-      <img src="images/chew-toys.jpg" alt="Chew toys">
-      <p>Durable, fun, and safe! Our chew toys are made from pet-safe materials that are perfect for strong chewers and playful pups.</p>
-    </section>
+      <div class="product">
+        <img src="images/chewtoys.jpg" alt="Durable Chew Toys">
+        <h3>Durable Chew Toys</h3>
+        <p>Long-lasting fun to keep your pets entertained and help dental hygiene.</p>
+      </div>
+    </div>
   </div>
 
   <footer>
