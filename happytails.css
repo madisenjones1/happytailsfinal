@@ -162,7 +162,25 @@ footer .logo:hover {
       max-width: 100%;
       border-radius: 10px;
     }
-   
+    table.specialty-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      background-color: #fff8f0;
+    }
+    table.specialty-table th, table.specialty-table td {
+      border: 1px solid #f57c00;
+      padding: 12px;
+      text-align: left;
+    }
+    table.specialty-table th {
+      background-color: #fdd8a8;
+      color: #6b3e00;
+    }
+    table.specialty-table td {
+      color: #5a3a1a;
+    }
+
 
 
 
